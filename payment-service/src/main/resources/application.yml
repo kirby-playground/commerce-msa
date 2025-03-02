@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: develop
+server:
+  port: 8083
+---
+
+spring:
+  config:
+    activate:
+      on-profile: production
